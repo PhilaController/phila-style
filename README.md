@@ -2,7 +2,7 @@
 
 A data visualization style based on the [City of Philadelphia Digital Standards](https://standards.phila.gov/guidelines/design-development/brand-elements/color-palette/). Matplotlib and Altair themes are included by default.
 
-The theme requires the [Open Sans](https://fonts.google.com/specimen/Open+Sans) to be installed.
+The theme requires the [Open Sans](https://fonts.google.com/specimen/Open+Sans) font to be installed.
 
 ## Light Mode
 
