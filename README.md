@@ -42,7 +42,6 @@ standard = get_digital_standards()
 
 'Dark', 'grey', and 'light' modes are available. Below is an example of the 'grey' theme:
 
-
 ```python
 from matplotlib import pyplot as plt
 import numpy as np
@@ -91,4 +90,4 @@ alt.Chart(source).mark_circle(size=60).encode(
 ).interactive()
 ```
 
-![Altair example](/images/grey_matplotlib_theme.png)
+![Altair example](/images/altair_example.png)
