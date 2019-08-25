@@ -2,6 +2,12 @@
 
 A data visualization style based on the [City of Philadelphia Digital Standards](https://standards.phila.gov/guidelines/design-development/brand-elements/color-palette/). Matplotlib and Altair themes are included by default.
 
+## Light Mode
+![Light Mode](/images/light_mode.png)
+
+## Dark Mode
+![Dark Mode](/images/dark_mode.png)
+
 ## Color palettes
 
 The default color palette is slightly tweaked from the palette defined by the Digital Standards. The list of colors can be retrieved using:
