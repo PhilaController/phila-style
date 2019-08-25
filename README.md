@@ -3,9 +3,11 @@
 A data visualization style based on the [City of Philadelphia Digital Standards](https://standards.phila.gov/guidelines/design-development/brand-elements/color-palette/). Matplotlib and Altair themes are included by default.
 
 ## Light Mode
+
 ![Light Mode](/images/light_mode.png)
 
 ## Dark Mode
+
 ![Dark Mode](/images/dark_mode.png)
 
 ## Color palettes
@@ -28,7 +30,7 @@ Sequential color ramps can be constructed for any of the colors in the default c
 ramp = get_color_ramp("blue", N=9)
 ```
 
-The palette defined by the Digital Standards can also be loaded:
+All colors defined by the [Digital Standards palette](https://standards.phila.gov/guidelines/design-development/brand-elements/color-palette/) can also be loaded:
 
 ```python
 standard = get_digital_standards()
@@ -36,16 +38,24 @@ standard = get_digital_standards()
 
 ## Matplotlib theme
 
-'Dark' and 'light' mode themes are available
+'Dark' and 'light' mode themes are available.
 
 ```python
 from matplotlib import pyplot as plt
 import numpy as np
 from phila_style.matplotlib import get_theme
 
-with plt.style.context(get_theme(mode="dark")):
+with plt.style.context(get_theme(mode="grey")):
     for i in range(7):
         plt.plot(np.random.random(size=10))
+
+    plt.gcf().text(
+        0.005,
+        0.95,
+        "An Example of the City of Philadelphia 'Grey' Matplotlib Theme",
+        weight="bold",
+        fontsize=14,
+    )
 ```
 
 ## Altair theme
