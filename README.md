@@ -78,3 +78,17 @@ import altair as alt
 alt.themes.register('phila', get_theme)
 alt.themes.enable('phila')
 ```
+
+```python
+from vega_datasets import data
+source = data.cars()
+
+alt.Chart(source).mark_circle(size=60).encode(
+    x='Horsepower',
+    y='Miles_per_Gallon',
+    color='Origin',
+    tooltip=['Name', 'Origin', 'Horsepower', 'Miles_per_Gallon']
+).interactive()
+```
+
+![Altair example](/images/grey_matplotlib_theme.png)
