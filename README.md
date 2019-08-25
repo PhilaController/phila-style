@@ -59,7 +59,7 @@ with plt.style.context(get_theme(mode="grey")):
     )
 ```
 
-![Matplotlib Grey Mode](/images/grey_matplotlib_theme.png.png)
+![Matplotlib Grey Mode](/images/grey_matplotlib_theme.png)
 
 ## Altair theme
 
