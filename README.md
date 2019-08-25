@@ -6,9 +6,9 @@ A data visualization style based on the [City of Philadelphia Digital Standards]
 
 ![Light Mode](/images/light_mode.png)
 
-## Dark Mode
+## Grey Mode
 
-![Dark Mode](/images/dark_mode.png)
+![Grey Mode](/images/grey_mode.png)
 
 ## Color palettes
 
@@ -38,7 +38,8 @@ standard = get_digital_standards()
 
 ## Matplotlib theme
 
-'Dark' and 'light' mode themes are available.
+'Dark', 'grey', and 'light' modes are available. Below is an example of the 'grey' theme:
+
 
 ```python
 from matplotlib import pyplot as plt
@@ -58,10 +59,14 @@ with plt.style.context(get_theme(mode="grey")):
     )
 ```
 
+![Matplotlib Grey Mode](/images/grey_matplotlib_theme.png.png)
+
 ## Altair theme
 
 Heavily inspired by the [LA Times Altair theme](https://github.com/datadesk/altair-latimes), but using the
 recommended color palette from the City of Philadelphia's Digital Standards.
+
+Currently, only the light theme is available.
 
 ```python
 from phila_style.altair as get_theme
