@@ -1,5 +1,11 @@
 # phila_style
 
+[![Build Status](https://travis-ci.org/PhiladelphiaController/phila_style.svg?branch=master)](https://travis-ci.org/PhiladelphiaController/phila_style)
+[![](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/download/releases/3.6.0/)
+![t](https://img.shields.io/badge/status-stable-green.svg)
+[![](https://img.shields.io/github/license/PhiladelphiaController/phila_style.svg)](https://github.com/PhiladelphiaController/phila_style/blob/master/LICENSE)
+[![PyPi version](https://img.shields.io/pypi/v/phila_style.svg)](https://pypi.python.org/pypi/phila_style/)
+
 A data visualization style based on the [City of Philadelphia Digital Standards](https://standards.phila.gov/guidelines/design-development/brand-elements/color-palette/). Matplotlib and Altair themes are included by default.
 
 The theme requires the [Open Sans](https://fonts.google.com/specimen/Open+Sans) font to be installed.
