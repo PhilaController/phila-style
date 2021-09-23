@@ -2,7 +2,7 @@
 palette = dict(
     black="#000000",
     white="#ffffff",
-    grey="#353d42",
+    gray="#353d42",
     default="#2176d2",
     accent="#f40000",
     highlight="#f3c613",
@@ -73,7 +73,7 @@ def get_theme():
             title=dict(
                 anchor="start",
                 font=headlineFont,
-                fontColor=palette["grey"],
+                fontColor=palette["gray"],
                 fontSize=headlineFontSize,
                 fontWeight=headlineFontWeight,
             ),

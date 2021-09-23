@@ -50,12 +50,14 @@ def get_default_palette():
     palette["red"] = "#f40000"
     palette["electric-blue"] = "#25cef7"
     palette["purple"] = "#d233ff"
+    palette["dark-blue"] = "#2176d2"
 
-    # greys
-    palette["almost-grey"] = "#353d42"
-    palette["dark-grey"] = "#2a3135"
-    palette["medium-grey"] = "#666666"
-    palette["light-grey"] = "#868b8e"
+    # grays
+    palette["almost-gray"] = "#353d42"
+    palette["dark-gray"] = "#2a3135"
+    palette["medium-gray"] = "#666666"
+    palette["light-gray"] = "#868b8e"
+    palette["sidewalk"] = "#cfcfcf"
 
     # black/white
     palette["black"] = "#000000"

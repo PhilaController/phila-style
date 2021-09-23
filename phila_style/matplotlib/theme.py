@@ -8,7 +8,7 @@ def get_theme(mode="light", strong_grid=False, palette="default"):
 
     Parameters
     ----------
-    mode : 'light', 'grey', dark'
+    mode : 'light', 'gray', dark'
         the theme's mode
     strong_grid : bool, optional
         whether to use strong grid lines
@@ -29,7 +29,7 @@ def get_theme(mode="light", strong_grid=False, palette="default"):
     >>> with plt.style.context(get_theme(mode="dark")):
     >>>    plt.plot(np.random.random(size=10))
     """
-    assert mode in ["dark", "grey", "light"]
+    assert mode in ["dark", "gray", "light"]
     assert palette in ["default", "light", "dark"]
 
     if mode == "light":
@@ -37,7 +37,7 @@ def get_theme(mode="light", strong_grid=False, palette="default"):
         TEXT_COLOR = "#353d42"
         LABEL_COLOR = "#666666"
         GRID_COLOR = "#666666" if strong_grid else "#d8d8d8"
-    elif mode == "grey":
+    elif mode == "gray":
         BG_COLOR = "#353d42"
         TEXT_COLOR = LABEL_COLOR = "#ffffff"
         GRID_COLOR = "#ffffff" if strong_grid else "#4e5254"
@@ -84,6 +84,7 @@ def get_theme(mode="light", strong_grid=False, palette="default"):
     theme["axes.unicode_minus"] = True
     theme["axes.xmargin"] = 0.1
     theme["axes.ymargin"] = 0.1
+    theme["axes.axisbelow"] = True
 
     # Grid
     theme["grid.alpha"] = 1.0
